@@ -50,23 +50,3 @@ Users can explore pollutant relationships, visualize data through heatmaps and s
 
 ---
 
-## 📂 Project Structure
-
-Air_Quality_Prediction/
-│
-├── app.py # Main Streamlit dashboard
-├── merge_and_clean.py # Script to merge and clean datasets
-├── retrain_model.py # Retrains model using latest merged data
-├── evaluate_model.py # Evaluates and plots model accuracy
-│
-├── model/
-│ └── air_quality_model.pkl # Saved ML model file
-│
-├── dataset/
-│ ├── cleaned_Location_data_2021.xlsx
-│ ├── cleaned_Location_data_2022.xlsx
-│ ├── cleaned_Location_data_2023.xlsx
-│ └── merged_air_quality.csv
-│
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation
